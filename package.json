@@ -1,14 +1,25 @@
 {
   "name": "@eggjs/create",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "",
   "keywords": [
     "create",
     "eggjs",
     "template"
   ],
+  "homepage": "https://github.com/eggjs/create",
+  "bugs": {
+    "url": "https://github.com/eggjs/create/issues"
+  },
   "license": "MIT",
   "author": "eggjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggjs/create.git"
+  },
+  "files": [
+    "templates"
+  ],
   "publishConfig": {
     "access": "public"
   },
