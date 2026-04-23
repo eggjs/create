@@ -1,0 +1,11 @@
+{
+  "name": "@your-org/app",
+  "version": "0.0.0",
+  "description": "App",
+  "keywords": [
+    "app"
+  ],
+  "license": "MIT",
+  "author": "your-org",
+  "type": "module"
+}

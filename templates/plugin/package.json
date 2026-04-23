@@ -1,0 +1,11 @@
+{
+  "name": "@your-org/plugin",
+  "version": "0.0.0",
+  "description": "Plugin",
+  "keywords": [
+    "plugin"
+  ],
+  "license": "MIT",
+  "author": "your-org",
+  "type": "module"
+}

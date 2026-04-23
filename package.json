@@ -1,0 +1,46 @@
+{
+  "name": "@eggjs/create",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "create",
+    "eggjs",
+    "template"
+  ],
+  "license": "MIT",
+  "author": "eggjs",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepare": "vp config"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "vite-plus": "catalog:"
+  },
+  "packageManager": "pnpm@10.33.2",
+  "vp": {
+    "templates": [
+      {
+        "name": "monorepo",
+        "description": "Monorepo",
+        "template": "./templates/monorepo",
+        "monorepo": true
+      },
+      {
+        "name": "app",
+        "description": "Egg app template",
+        "template": "./templates/app"
+      },
+      {
+        "name": "plugin",
+        "description": "Egg plugin template",
+        "keywords": [
+          "plugin"
+        ],
+        "template": "./templates/plugin"
+      }
+    ]
+  }
+}
