@@ -1,6 +1,6 @@
 {
   "name": "@eggjs/create",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "eggjs create template",
   "keywords": [
     "create",
@@ -31,7 +31,7 @@
     "vite-plus": "catalog:"
   },
   "packageManager": "pnpm@10.33.2",
-  "vp": {
+  "createConfig": {
     "templates": [
       {
         "name": "monorepo",
